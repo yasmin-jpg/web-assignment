@@ -29,15 +29,20 @@ This is the personal portfolio website of Yasmin Sadykova, an aspiring web devel
 - **Bootstrap 4**
 - **Flexbox**
 - **FontAwesome Icons** (for social media icons)
+Assignment3
 
-## How to Use
+# Sadykova Yasmin's Portfolio - README
 
-1. Clone the repository.
-2. Open the `index.html` file in any browser to view the website.
+This repository contains the portfolio website for **Sadykova Yasmin**, showcasing her bio, hobbies, and contact information. The website is built with **Bootstrap 4** to ensure responsiveness and ease of styling, along with some custom **CSS** elements for unique designs.
 
-Feel free to fork or clone the repository for personal use or to expand on this project.
+## 1. Bootstrap Integration
 
-## Contact
+### Bootstrap CDN Links
 
-For any questions, feel free to reach out to **Yasmin Sadykova** via the contact details provided on the website.
+The Bootstrap CSS framework is included in the project via CDN:
+
+```html
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+
 
