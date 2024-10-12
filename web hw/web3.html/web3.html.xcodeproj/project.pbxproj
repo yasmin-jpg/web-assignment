@@ -1,0 +1,75 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXFileReference section */
+		71A90E692CB95FDD00F3EF7C /* web3.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = web3.html; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		71A90E622CB95F5400F3EF7C = {
+			isa = PBXGroup;
+			children = (
+				71A90E692CB95FDD00F3EF7C /* web3.html */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXProject section */
+		71A90E632CB95F5400F3EF7C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1600;
+			};
+			buildConfigurationList = 71A90E662CB95F5400F3EF7C /* Build configuration list for PBXProject "web3.html" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 71A90E622CB95F5400F3EF7C;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		71A90E672CB95F5400F3EF7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		71A90E682CB95F5400F3EF7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		71A90E662CB95F5400F3EF7C /* Build configuration list for PBXProject "web3.html" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71A90E672CB95F5400F3EF7C /* Debug */,
+				71A90E682CB95F5400F3EF7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 71A90E632CB95F5400F3EF7C /* Project object */;
+}
