@@ -122,6 +122,30 @@ html
 <a href="..." class="text-warning">justyasssa</a>
 text-warning: Adds a yellow color to the link, making it stand out against the dark background.
 
+Assignment4
+# Dice Game
+
+A simple interactive dice game where users can roll two dice by clicking a button.
+
+## Instructions
+
+1. **Opening the Game:**
+   - Open the `index.html` file in any modern web browser.
+   
+2. **How to Play:**
+   - Click the "Roll Dice" button to roll two dice.
+   - The result will show the random values of each die.
+   - The sum of the two dice will be displayed.
+   - The number of times the dice have been rolled will be updated each time.
+
+3. **Winning Condition:**
+   - If both dice show the same value, a message will appear, indicating that you've won.
+
+## Additional Features
+
+- **Roll Counter:** Tracks and displays how many times the dice have been rolled.
+- **Sum Display:** Shows the total of the two dice after each roll.
+- **Winning Message:** Displays a message if both dice land on the same number.
 
 
 
