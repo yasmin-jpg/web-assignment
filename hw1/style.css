@@ -1,0 +1,200 @@
+/* Общие стили */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Стили для заголовка */
+header {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #000000; /* Коричневый фон */
+    color: white;
+}
+
+header h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+header p {
+    font-size: 1.5em;
+    margin-top: 10px;
+    color: #ffdbac; /* Золотой оттенок для слогана */
+}
+
+/* Стили для биографии */
+.bio {
+    text-align: center;
+    margin: 50px 0;
+}
+
+.bio h2 {
+    font-size: 2.5em;
+    color: #3c3c3c;
+}
+
+.bio p {
+    font-size: 1.2em;
+    color: #555;
+    margin-top: 10px;
+}
+
+/* Изображение профиля */
+.profile-img {
+    width: 150px;
+    height: auto;
+    border-radius: 50%; /* Круглая форма */
+    margin: 20px 0;
+    border: 3px solid #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Секция "Хобби" */
+.hobbies {
+    text-align: center;
+    margin: 50px 0;
+}
+
+.hobbies h2 {
+    font-size: 2.5em;
+    color: #3c3c3c;
+}
+
+.hobby-cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.hobby {
+    text-align: center;
+}
+
+.hobby img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover; /* Изображение подгоняется под размеры без искажения */
+    border-radius: 10px; /* Закруглённые углы */
+    border: 2px solid #3c3c3c;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.hobby p {
+    margin-top: 10px;
+    font-size: 1.1em;
+    color: #333;
+}
+
+/* Секция "Интересные факты" */
+.facts {
+    margin: 50px 0;
+    text-align: center;
+}
+
+.facts h2 {
+    font-size: 2.5em;
+    color: #3c3c3c;
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+    font-size: 1.2em;
+    text-align: left;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 10px;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+/* Стили для футера */
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #333;
+    color: white;
+    margin-top: 50px;
+}
+
+footer a {
+    color: #ffdbac;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Адаптивность для мобильных устройств */
+@media (max-width: 768px) {
+    .hobby-cards {
+        flex-direction: column; /* Вертикальное расположение для мобильных устройств */
+        align-items: center;
+    }
+
+    header h1 {
+        font-size: 2em; /* Уменьшаем размер заголовка на мобильных устройствах */
+    }
+
+    header p {
+        font-size: 1.2em; /* Уменьшаем слоган */
+    }
+}
+
+/* Эффект наведения для изображений хобби */
+.hobby img {
+    transition: transform 0.3s ease; /* Плавный переход при наведении */
+}
+
+.hobby img:hover {
+    transform: scale(1.1); /* Масштабируем изображение при наведении */
+}
+
+/* Эффект наведения для ссылок */
+footer a {
+    color: #ffdbac;
+    text-decoration: none;
+    transition: color 0.3s, text-decoration 0.3s; /* Плавные переходы для цвета и подчеркивания */
+}
+
+footer a:hover {
+    color: #fff; /* Изменение цвета ссылки при наведении */
+    text-decoration: underline; /* Подчеркивание при наведении */
+}
+
+/* Flexbox для более гибкого макета */
+.hobby-cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+    flex-wrap: wrap; /* Позволяет элементам переноситься на следующую строку */
+}
+
+/* Псевдоэлемент ::before для декоративного элемента перед заголовками */
+h2::before {
+    content: '★ '; /* Добавляем звездочку перед заголовком */
+    color: gold;
+    margin-right: 5px;
+}
