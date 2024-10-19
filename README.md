@@ -2,7 +2,7 @@ Assignment2
 
 # Sadykova Yasmin's Portfolio
 
-This is the personal portfolio website of Yasmin Sadykova, an aspiring web developer. The site was built using **Bootstrap 4** for a fully responsive layout and styled with custom **CSS**.
+ The site was built using **Bootstrap 4** for a fully responsive layout and styled with custom **CSS**.
 
 ## Features
 
@@ -29,11 +29,13 @@ This is the personal portfolio website of Yasmin Sadykova, an aspiring web devel
 - **Bootstrap 4**
 - **Flexbox**
 - **FontAwesome Icons** (for social media icons)
+
+
+
+  
 Assignment3
 
-# Sadykova Yasmin's Portfolio - README
-
-This repository contains the portfolio website for **Sadykova Yasmin**, showcasing her bio, hobbies, and contact information. The website is built with **Bootstrap 4** to ensure responsiveness and ease of styling, along with some custom **CSS** elements for unique designs.
+The website is built with **Bootstrap 4** to ensure responsiveness and ease of styling, along with some custom **CSS** elements for unique designs.
 
 ## 1. Bootstrap Integration
 
@@ -50,77 +52,47 @@ html
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 2. Header Structure
-
 Using Bootstrap classes for styling the header:
-
-html
 Копировать код
 <header class="bg-dark text-white text-center py-5">
-    <h1>Sadykova Yasmin</h1>
-    <p>Aspiring Web Developer</p>
-</header>
-bg-dark: Adds a dark background to the header.
-text-white: Makes the text color white.
-text-center: Centers the text horizontally.
-py-5: Adds vertical padding (top and bottom) to the header.
+  
 3. "About Me" Section
-
 Using Bootstrap classes for styling the profile image:
-
-html
-
 <img src="..." alt="Sadykova Yasmin" class="profile-img rounded-circle">
 rounded-circle: Makes the profile image circular for a polished look.
-4. "My Hobbies" Section
-
+5. "My Hobbies" Section
 Using Flexbox provided by Bootstrap for arranging the hobby cards:
-
-html
-
 <div class="hobby-cards d-flex justify-content-center flex-wrap">
     <!-- Card content here -->
 </div>
 d-flex: Turns the container into a flexbox container.
 justify-content-center: Horizontally centers the cards within the container.
 flex-wrap: Allows the cards to wrap onto the next line if necessary (ensuring responsiveness).
+
 5. "Interesting Facts" Section
-
 Applying Bootstrap classes to create a table for displaying facts:
-
-html
-
 <table class="table table-bordered">
     <!-- Table content here -->
 </table>
 table: Adds the default Bootstrap table styling.
 table-bordered: Adds borders around each cell for better separation.
 Adding a light-colored header to the table:
-
-html
-
 <thead class="thead-light">
     <!-- Header content here -->
 </thead>
 thead-light: Adds a light background to the table header for contrast.
+
 6. Footer
-
 Styling the footer using Bootstrap classes:
-
-html
-
 <footer class="text-center py-4 bg-dark text-white">
     <!-- Footer content here -->
-</footer>
-text-center: Centers the footer content horizontally.
-py-4: Adds padding to the top and bottom of the footer.
-bg-dark and text-white: Same background and text styling as the header for consistency.
+
 7. Footer Links
-
 Customizing link styles within the footer:
-
-html
 <a href="..." class="text-warning">justyasssa</a>
-text-warning: Adds a yellow color to the link, making it stand out against the dark background.
+
+
+
 
 Assignment4
 # Dice Game
