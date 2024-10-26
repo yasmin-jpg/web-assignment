@@ -1,0 +1,43 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f0f0f0;
+}
+
+.player {
+  text-align: center;
+  max-width: 400px;
+}
+
+#cover {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.track-info {
+  margin-bottom: 20px;
+}
+
+.controls button {
+  padding: 10px 20px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.track-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.track-list li {
+  cursor: pointer;
+  padding: 10px;
+  margin: 5px 0;
+  background-color: #ddd;
+  border-radius: 5px;
+}

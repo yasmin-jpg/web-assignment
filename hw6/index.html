@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Music Player</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="player">
+    <img id="cover" src="Images/Chihiro.jpg" alt="Cover Image">
+    <div class="track-info">
+      <h2 id="title">Billie Eilish – CHIHIRO</h2>
+      <p id="track-number">Track 1 of 4</p>
+    </div>
+    <audio id="audio" src="Sounds/Billie.mp3"></audio>
+    <div class="controls">
+      <button id="prev">Previous</button>
+      <button id="play-pause">Play</button>
+      <button id="next">Next</button>
+    </div>
+    <div class="track-list">
+      <ul id="track-list">
+        <li data-index="0">Billie Eilish – CHIHIRO</li>
+        <li data-index="1">Chase Atlantic – HEAVEN AND BACK</li>
+        <li data-index="2">Imagine Dragons – Thunder</li>
+        <li data-index="3">MOLDANAZAR – Mahabbatym</li>
+      </ul>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
