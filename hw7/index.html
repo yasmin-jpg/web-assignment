@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hero Randomizer</title>
+    <style>
+        /* Основные стили для градиента и структуры страницы */
+        body {
+            background: linear-gradient(135deg, #8e44ad, #000);
+            color: #f6efef;
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            margin: 0;
+            overflow: hidden;
+            position: relative;
+        }
+
+        /* Заголовок в углу */
+        #title-corner {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            font-size: 36px;
+            font-weight: bold;
+            color: #faf6f6;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+
+        /* Контейнер для изображения и характеристик */
+        #hero-container {
+            display: flex;
+            align-items: flex-start;
+            gap: 20px;
+            max-width: 800px;
+            margin-top: 50px;
+        }
+
+        /* Стили для изображения героя */
+        #hero-avatar {
+            width: 250px;
+            height: auto;
+            border-radius: 15px;
+            border: 5px solid #490b63;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7);
+        }
+
+        /* Блок информации о герое */
+        #hero-info {
+            display: flex;
+            flex-direction: column;
+            text-align: left;
+            max-width: 500px;
+        }
+
+        /* Стиль для каждой характеристики героя */
+        .hero-attribute {
+            margin: 5px 0;
+            font-size: 18px;
+        }
+
+        /* Заголовок и описание героя */
+        #hero-title {
+            font-size: 30px;
+            margin: 0;
+            color: #e0e0e0;
+        }
+        #hero-description {
+            font-size: 18px;
+            color: #bbb;
+        }
+
+        /* Кнопка */
+        button {
+            background-color: #d322d6;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 20px;
+            font-size: 18px;
+            transition: background-color 0.3s;
+        }
+
+        /* Эффект при наведении на кнопку */
+        button:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+<body>
+    <!-- Заголовок в углу страницы -->
+    <div id="title-corner">Hero Randomizer</div>
+
+    <!-- Контейнер для изображения и характеристик -->
+    <div id="hero-container">
+        <img id="hero-avatar" src="" alt="hero-avatar">
+        <div id="hero-info">
+            <h1 id="hero-title">Mock Title</h1>
+            <h2 id="hero-description">Mock Description</h2>
+            <div id="hero-attributes"></div>
+        </div>
+    </div>
+
+    <!-- Кнопка для вызова случайного героя -->
+    <button onclick="onButtonClick()">Get Hero</button>
+    
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+<!-- <!doctype html>
+<html lang=en>
+  <head>
+    <meta charset=utf-8>
+      <title>Hero Randomizer</title>
+  </head>
+  <body>
+      <div>
+          <img id="hero-avatar" src=" " alt="hero-avatar">
+      </div>
+      <h1 id="hero-title">Mock Title</h1>
+      <h2 id="hero-description">Mock Description</h2>
+
+       <div>
+          <button onclick="onButtonClick()"> Get Hero</button>
+       </div>
+     <script src="script.js"></script>
+  </body>
+</html> -->
